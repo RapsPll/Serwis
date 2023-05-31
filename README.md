@@ -1,3 +1,3 @@
 # Serwis-decathlon-Piaseczno
-demo https://rapspll.github.io/Serwis
-https://github.com/RapsPll/Serwis.git
+demo
+https://github.com/RapsPll/Serwis
