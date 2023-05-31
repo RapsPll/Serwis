@@ -1,0 +1,97 @@
+.contact {
+    width: 90%;
+    margin: 50px auto;
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input,
+.form__text {
+    margin-top: 6px;
+    width: 100%;
+    border: none;
+    background-color: #eee;
+}
+
+.form__text {
+    resize: none;
+}
+.form__input {
+    height: 35px;
+}
+
+.form__inputName {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.form__button {
+    margin-top: 20px;
+    font-size: 2rem;
+    width: 130px;
+    background-color: #007DBC;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.contacts__rightSide {
+    width: 100%
+}
+
+.rightSide__title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.verticalLine {
+width: 2px;
+height: 500px;
+border: 1px solid #000;
+}
+.contact__span {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.contact__email,
+.contact__phoneNumber,
+.contact__adress {
+    font-size: 1.2rem;
+}
+
+.verticalLine {
+    margin: 0 20px;
+}
+
+.contacts__box {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 890px) {
+    .contact {
+    padding: 10px;
+    }
+    .contacts__box {
+        display: block;
+    }
+}
+@media (max-width: 370px) {
+    .rightSide__title {
+        font-size: 2.2rem;
+    }
+    .contact__span {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 200px) {
+    .contact__span {
+        font-size: 0.7rem;
+    }
+}

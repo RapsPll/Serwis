@@ -1,0 +1,27 @@
+.footer {
+    background-color: #007DBC;
+    padding: 15px 0;
+    
+}
+
+.footer__paragraph {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.footer-special {
+    margin-top: 70px;
+}
+.footer-unique {
+    margin-top: 70px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+@media (max-width: 890px) {
+    .footer{
+    font-size: 0.8rem;
+    }
+}
